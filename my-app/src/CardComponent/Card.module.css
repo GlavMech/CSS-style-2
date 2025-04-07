@@ -1,0 +1,102 @@
+h1 {
+  background-color: #3b3b3b;
+  color: #059c02;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.cardWrapper {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 500px;
+  overflow: hidden;
+  font-family: sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.selectedImageContainer {
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  padding: 16px;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.author {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.buttonGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.activeCard {
+  background-color: #333; /* Темный фон */
+  text-align: center;
+}
+
+.inactiveCard {
+  background-color: #f0f0f0; /* Светлый фон */
+  
+}
+
+.activeText {
+  color: #fffdfd; /* Белый текст */
+  text-align: center;
+}
+
+.inactiveText {
+  color: #0d0000; /* Черный текст */
+  text-align: center;
+}
+
+.activeButton {
+  background-color: #fffdfd;
+  color: #0d0000;
+  border: 1px solid #0d0000;
+}
+
+.inactiveButton {
+  background-color: #0d0000;
+  color: #fffdfd;
+  border: 1px solid #fffdfd;
+}
